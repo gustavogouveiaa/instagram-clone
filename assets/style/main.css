@@ -1,0 +1,53 @@
+/* Nav bar */
+.nav_bar {
+  width: 100%;
+  background-color: #fff;
+  height: 6.2%;
+  border-bottom: 1px solid #d8d8d8;
+}
+
+.nav_bar_content {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+/* logo */
+.logo {
+  width: 27%;
+}
+
+/* input search */
+.search {
+  width: 45%;
+  display: flex;
+  justify-content: flex-start;
+}
+#search_name {
+  width: 270px; 
+  height: 35px; 
+  border-radius: .5em;
+  background-color: #f0f0f0;
+  color: #000;
+  font-size: 1em;
+  font: 300;
+  padding-left: 1em;
+}
+
+/* Menu Icons */
+.icons {
+  width: 26%;
+}
+.icons_content {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.icons_content img {
+  width: 23px;
+}
+.icons_content img:nth-child(6) {
+  width: 30px;
+  border-radius: 50%;
+}
