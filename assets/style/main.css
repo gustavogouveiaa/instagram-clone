@@ -15,28 +15,31 @@
 }
 /* logo */
 .logo {
-  width: 27%;
+  width: 20%;
   height: 100%;
   display: flex;
   justify-content: flex-start;
   align-items: center;
 }
+.logo a {
+  padding: 1rem 0 0 0;
+}
 
 /* input search */
 .search {
-  width: 45%;
+  width: 50%;
   display: flex;
   justify-content: flex-start;
 }
 #search_name {
   width: 270px; 
   height: 35px; 
-  border-radius: .5em;
+  border-radius: .5rem;
   background-color: #f0f0f0;
   color: #000;
-  font-size: 1em;
+  font-size: 1rem;
   font: 300;
-  padding-left: 1em;
+  padding-left: 1rem;
 }
 
 /* Menu Icons */
@@ -68,49 +71,110 @@ main {
 #profile-bio {
   width: 100%;
   height: 41.5%;
-  border-bottom: 1px solid #c0c0c070;
   display: flex;
-
+  margin-top: 20px;
+  border-bottom: 1px solid #c0c0c070;
 }
 
 /* Foto de perfil */
 .bio_photo{
-  width: 30%;
+  width: 34%;
   height: 100%;
 }
 .bio_photo img {
   width: 150px;
   border-radius: 50%;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
+
 
 /* Informações da bio */
 .bio_infos {
-  width: 60%;
+  width: 66%;
   height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: flex-start;
 }
 .bio_content {
   width: 100%;
-  margin: 1.5em 1.5em 1.5em 1.5em;
+  height: 100%;
+  margin: 1.5rem 0;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  align-items: center;
 }
+
+
+
+/* Linha do usuario */
 .name_row {
   width: 100%;
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  background-color: aquamarine;
+  margin-bottom: 20px;
 }
 .name_user {
-  width: 50%;
-  border-right: 16px;
+  width: 38%;
   display: flex;
   justify-content: flex-start;
   align-items: center;
+}
+.name_user p {
+  font-size: 1.6rem;
+}
+/* Button Edit */
+.edit_perfil {
+  width: 15%;
+}
+
+.edit_perfil button{
+  width: 5.5rem;
+  padding: .3rem;
+  border: 1px solid #c0c0c0;
+  border-radius: .3rem;
+  background-color: #fff;
+  color: #000;
+  font-size: .8rem;
+  font-weight: bold;
+  cursor: pointer;
+  margin-right: 1rem;
+}
+.edit_perfil button:active {
+  border: 1px solid #c0c0c090;
+  color: #c0c0c0;
+}
+/* Configuração */
+.configure img{
+  width: 1.5rem;
+}
+
+
+
+/* Linha seguidores */
+.follow_row {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+.publi p, .seguidores p, .seguindo p {
+  font-size: 1rem;
+}
+
+
+/* Linha bio */
+.bio_row {
+  width: 100%;
+}
+.bio_row p {
+  margin: 5px;
+}
+.bio_row span {
+  font-weight: 900;
 }
