@@ -1,3 +1,3 @@
-# Recriação do Instagram
+# Recriação de um perfil no Instagram
 
-Este projeto tem como foco principal a pratica de posicionamento das box e Layout usando flex-box 
+<p>Este projeto tem como foco principal a pratica dos elementos do flex-box e posicionamento do layout.</p>
