@@ -43,9 +43,6 @@
 }
 
 /* Menu Icons */
-.icons {
-  width: 26%;
-}
 .icons_content {
   width: 100%;
   display: flex;
@@ -55,18 +52,12 @@
 .icons_content a img {
   width: 23px;
 }
-.icons_content a:nth-child(6) img {
-  width: 30px;
-  border-radius: 50%;
-}
 
 
 /* Profile Bio */
 main {
   margin: 0 auto;
   width: 50%;
-  height: 80%;
-  /* background-color: aquamarine; */
 }
 #profile-bio {
   width: 100%;
@@ -96,7 +87,6 @@ main {
   height: 100%;
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
   align-items: flex-start;
 }
 .bio_content {
@@ -183,7 +173,6 @@ main {
 .destaque_container {
   width: 100%;
   height: 200px;
-  /* background-color: aqua; */
   border-bottom: 1px solid #c0c0c070;
   display: flex;
   align-items: center;
@@ -191,18 +180,15 @@ main {
 }
 .destaque_cont {
   display: flex;
-  /* justify-content: center; */
   align-items: center;
+  justify-content: center;
   flex-direction: column;
 }
-.destaque_cont p {
-  font-weight: bold;
-}
 .destaque {
-  width: 90px;
-  height: 90px;
+  width: 5.6rem;
+  height: 5.6rem;
   border-radius: 50%;
-  border: 2px solid #c0c0c070;
+  border: 1px solid #c0c0c080;
   margin: 10px 15px;
   cursor: pointer;
 }
@@ -213,4 +199,56 @@ main {
   transform: translate(-50%, -50%);
   font-size: 35px;
   color: #c0c0c070;
+}
+
+/* Feed */
+.feed {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+/* Opição do Feed */
+.option_row {
+  width: 50%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.options_feed {
+  border: 1px solid #fff;
+  padding: .7rem 0 .2rem 0;
+}
+.options_feed a {
+  padding: 100% 0 100% 0;
+  color: #000;
+  font-size: .8rem;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.options_feed:hover {
+  border-top: 1px solid #000;
+}
+
+/* Foto Feed */
+.feed_photo {
+  width: 100%;
+}
+.feed_photo img {
+  width: 30%;
+  margin: 10px;
+}
+
+footer {
+  width: 100%;
+  /* height: 10%; */
+  display: flex;
+  justify-content: center;
+}
+footer span {
+  font-weight: bold;
+  color: rgb(81, 31, 161);
+  text-transform: uppercase;
 }
